@@ -1,0 +1,25 @@
+{
+  "name": "friekert/ClassLoader",
+  "description": "Initialize a class automatically",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["class", "loader"],
+  "authors": [
+    {
+      "name": "Johan Mulder",
+      "email": "johan@localhost.nl"
+    }
+  ],
+  "require": {
+    "psr/log": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*",
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ClassLoader\\": "src"
+    }
+  }
+}
